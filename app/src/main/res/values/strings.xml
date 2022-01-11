@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App in Java Attempt 2</string>
+    <string name="do_you_feel_recharged_by_being_alone">Do You Feel Recharged by Being Alone?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="welcome">Welcome</string>
+    <string name="being_alone_makes_you_feel">Being alone makes you feel...</string>
+    <string name="being_around_a_large_group_of_people_makes_you_feel">Being around a large group of people makes you feel...</string>
+    <string name="you_would_rather_go_out_with_friends_than_stay_at_home_and_enjoy_a_hobby">You Would Rather Go Out With Friends Than Stay at Home and Enjoy a Hobby</string>
+    <string name="people_describe_you_as_talkative_energetic_and_approachable">People Describe You as Talkative, Energetic, and Approachable</string>
+    <string name="False">False</string>
+    <string name="you_have_the_option_to_do_a_group_project_you_decide_to">You Have the Option to do a Group Project. You decide to...</string>
+</resources>
