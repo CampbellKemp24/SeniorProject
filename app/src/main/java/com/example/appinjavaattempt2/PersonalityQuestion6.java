@@ -7,8 +7,7 @@ import android.os.Bundle;
 import android.widget.Button;
 
 public class PersonalityQuestion6 extends AppCompatActivity {
-    int extrovertCount;
-    int introvertCount;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,8 +19,13 @@ public class PersonalityQuestion6 extends AppCompatActivity {
 
     }
     public void openresulti() {
-        this.introvertCount++;
-        if(extrovertCount > introvertCount) {
+        int currentIntrovertCount = ApplicationContext.getInstance().getIntrovertCount();
+        currentIntrovertCount++;
+        ApplicationContext.getInstance().setIntrovertCount(currentIntrovertCount);
+
+        int currentExtrovertCount = ApplicationContext.getInstance().getExtrovertCount();
+
+        if(currentExtrovertCount > currentIntrovertCount) {
             Intent intent = new Intent(this, personalityresulte.class);
             startActivity(intent);
         }
@@ -31,8 +35,13 @@ public class PersonalityQuestion6 extends AppCompatActivity {
         }
     }
     public void openresulte() {
-        this.extrovertCount++;
-        if(extrovertCount > introvertCount) {
+        int currentExtrovertCount = ApplicationContext.getInstance().getExtrovertCount();
+        currentExtrovertCount++;
+        ApplicationContext.getInstance().setExtrovertCount(currentExtrovertCount);
+
+        int currentIntrovertCount = ApplicationContext.getInstance().getIntrovertCount();
+
+        if(currentExtrovertCount > currentIntrovertCount) {
             Intent intent = new Intent(this, personalityresulte.class);
             startActivity(intent);
         }

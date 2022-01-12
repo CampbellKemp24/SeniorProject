@@ -8,17 +8,15 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button homescreenbutton;
-    private Object Intent;
-    int extrovertCount;
-    int introvertCount;
+    private Button homeScreenButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        homescreenbutton = (Button) findViewById(R.id.homescreenbutton);
-        homescreenbutton.setOnClickListener(new View.OnClickListener() {
+        homeScreenButton = (Button) findViewById(R.id.homescreenbutton);
+        homeScreenButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivity2();
