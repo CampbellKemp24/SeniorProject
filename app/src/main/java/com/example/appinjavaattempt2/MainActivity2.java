@@ -25,17 +25,13 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void openPersonalityQuestion2e() {
-        int currentExtrovertCount = ApplicationContext.getInstance().getExtrovertCount();
-        currentExtrovertCount++;
-        ApplicationContext.getInstance().setExtrovertCount(currentExtrovertCount);
+        ApplicationContext.getInstance().incrementExtrovertCount();
 
         Intent intent = new Intent(this, PersonalityQuestion2.class);
         startActivity(intent);
     }
     public void openPersonalityQuestion2i() {
-        int currentIntrovertCount = ApplicationContext.getInstance().getIntrovertCount();
-        currentIntrovertCount++;
-        ApplicationContext.getInstance().setIntrovertCount(currentIntrovertCount);
+        ApplicationContext.getInstance().incrementIntrovertCount();
 
         Intent intent = new Intent(this, PersonalityQuestion2.class);
         startActivity(intent);

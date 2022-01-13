@@ -35,13 +35,9 @@ public class PersonalityQuestion6 extends AppCompatActivity {
         }
     }
     public void openresulte() {
-        int currentExtrovertCount = ApplicationContext.getInstance().getExtrovertCount();
-        currentExtrovertCount++;
-        ApplicationContext.getInstance().setExtrovertCount(currentExtrovertCount);
+        ApplicationContext.getInstance().incrementExtrovertCount();
 
-        int currentIntrovertCount = ApplicationContext.getInstance().getIntrovertCount();
-
-        if(currentExtrovertCount > currentIntrovertCount) {
+        if( ApplicationContext.getInstance().getExtrovertCount() > ApplicationContext.getInstance().getIntrovertCount()) {
             Intent intent = new Intent(this, personalityresulte.class);
             startActivity(intent);
         }

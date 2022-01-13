@@ -19,9 +19,7 @@ public class PersonalityQuestion2 extends AppCompatActivity {
     }
 
     public void openPersonalityQuestion3e() {
-        int currentExtrovertCount = ApplicationContext.getInstance().getExtrovertCount();
-        currentExtrovertCount++;
-        ApplicationContext.getInstance().setExtrovertCount(currentExtrovertCount);
+        ApplicationContext.getInstance().incrementExtrovertCount();
 
         Intent intent = new Intent(this, PersonalityQuestion3.class);
         startActivity(intent);

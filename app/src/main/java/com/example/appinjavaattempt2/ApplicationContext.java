@@ -34,4 +34,12 @@ public class ApplicationContext {
     public void setIntrovertCount(int introvertCount) {
         this.introvertCount = introvertCount;
     }
+
+    public void incrementExtrovertCount () {
+        this.extrovertCount++;
+
+    }
+    public void incrementIntrovertCount () {
+        this.introvertCount++;
+    }
 }
