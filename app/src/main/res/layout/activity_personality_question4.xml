@@ -57,7 +57,7 @@
         android:backgroundTintMode="add"
         android:fontFamily="casual"
         android:foregroundTint="@android:color/holo_red_dark"
-        android:text="false"
+        android:text="False"
         android:textColor="#90CAF9"
         android:textSize="16sp"
         android:textStyle="bold"

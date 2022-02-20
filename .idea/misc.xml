@@ -3,13 +3,41 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/drawable-v24/thumbs_up_foreground.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/drawable/http_background.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/drawable/tea_background.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/drawable/thumbs_up.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/drawable/thumbs_up_background.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_correct_answer1.xml" value="0.1" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_correct_answer2.xml" value="0.1" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_correct_answer3.xml" value="0.1" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_correct_answer5.xml" value="0.121875" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_correct_answer_4.xml" value="0.1" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_main2.xml" value="0.33" />
         <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_personality_question2.xml" value="0.25" />
-        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_personality_question3.xml" value="0.6159844054580896" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_personality_question3.xml" value="0.2" />
         <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_personality_question4.xml" value="0.25" />
         <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_personality_question5.xml" value="0.5260869565217391" />
-        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_personality_question6.xml" value="0.8814504881450488" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_personality_question6.xml" value="0.5221518987341772" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_personalityresulte.xml" value="0.33" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_personalityresulti.xml" value="0.2" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_trivia_question1.xml" value="0.25" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_trivia_question2.xml" value="0.25" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_trivia_question3.xml" value="0.25" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_trivia_question4.xml" value="0.33" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_trivia_question5.xml" value="0.33" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_trivia_score_page.xml" value="0.25" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_wrong_answer1.xml" value="0.1" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_wrong_answer2.xml" value="0.1" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_wrong_answer3.xml" value="0.1" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/layout/activity_wrong_answer5.xml" value="0.1" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/mipmap-anydpi-v26/http.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/mipmap-anydpi-v26/thumbs_down_round.xml" value="0.2921875" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/mipmap-anydpi-v26/thumbs_up.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/fredt/AndroidStudioProjects/AppinJavaAttempt2/app/src/main/res/mipmap-anydpi-v26/thumbs_up_round.xml" value="0.29322916666666665" />
       </map>
     </option>
   </component>
@@ -18,5 +46,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

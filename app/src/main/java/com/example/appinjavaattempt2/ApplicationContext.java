@@ -42,4 +42,9 @@ public class ApplicationContext {
     public void incrementIntrovertCount () {
         this.introvertCount++;
     }
+
+    public void backToZeroPersonality () {
+        this.extrovertCount = 0;
+        this.introvertCount = 0;
+    }
 }

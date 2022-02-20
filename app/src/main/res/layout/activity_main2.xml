@@ -8,7 +8,7 @@
     android:backgroundTint="@android:color/holo_red_dark"
     android:foregroundTint="@android:color/holo_red_dark"
     android:visibility="visible"
-    tools:context=".MainActivity2">
+    tools:context=".PersonalityQuestion1">
 
     <TextView
         android:id="@+id/persquestiononetext"

@@ -5,15 +5,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class MainActivity2 extends AppCompatActivity {
+public class PersonalityQuestion1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-
-        //Since this is the first question screen,
-        //let's reset the contexts to 0 for both introvert and exterovert
         ApplicationContext context = ApplicationContext.getInstance();
         context.setExtrovertCount(0);
         context.setIntrovertCount(0);

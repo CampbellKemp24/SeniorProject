@@ -42,7 +42,7 @@
         app:layout_constraintVertical_bias="0.41" />
 
     <Button
-        android:id="@+id/homescreenbutton"
+        android:id="@+id/homescreenbuttonpersonality"
         android:layout_width="154dp"
         android:layout_height="48dp"
         android:background="@android:color/holo_red_dark"
@@ -50,7 +50,7 @@
         android:backgroundTintMode="add"
         android:fontFamily="casual"
         android:foregroundTint="@android:color/holo_red_dark"
-        android:text="Personality Quiz"
+        android:text="@string/personality_quiz"
         android:textColor="#90CAF9"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -59,6 +59,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/homescreenbuttontrivia"
+        android:layout_width="165dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#7575db"
+        android:backgroundTintMode="add"
+        android:fontFamily="casual"
+        android:text="@string/trivia_quiz"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,8 +12,8 @@ public class PersonalityQuestion2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personality_question2);
-        Button persQuestionTwoHappy = findViewById(R.id.persQuestionTwoOverwhelmed);
-        Button persQuestionTwoOverwhelmed = findViewById(R.id.persQuestionTwoHappy);
+        Button persQuestionTwoHappy = findViewById(R.id.persQuestionTwoHappy);
+        Button persQuestionTwoOverwhelmed = findViewById(R.id.persQuestionTwoOverwhelmed);
         persQuestionTwoHappy.setOnClickListener(v1 -> openPersonalityQuestion3e());
         persQuestionTwoOverwhelmed.setOnClickListener(v1 -> openPersonalityQuestion3i());
     }
@@ -25,9 +25,7 @@ public class PersonalityQuestion2 extends AppCompatActivity {
         startActivity(intent);
     }
     public void openPersonalityQuestion3i() {
-        int currentIntrovertCount = ApplicationContext.getInstance().getIntrovertCount();
-        currentIntrovertCount++;
-        ApplicationContext.getInstance().setIntrovertCount(currentIntrovertCount);
+        ApplicationContext.getInstance().incrementIntrovertCount();
 
         Intent intent = new Intent(this, PersonalityQuestion3.class);
         startActivity(intent);

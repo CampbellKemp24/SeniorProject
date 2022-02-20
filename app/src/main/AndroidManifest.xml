@@ -10,6 +10,54 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppInJavaAttempt2">
         <activity
+            android:name=".TriviaScorePage"
+            android:exported="true" />
+        <activity
+            android:name=".CorrectAnswer5"
+            android:exported="true" />
+        <activity
+            android:name=".WrongAnswer5"
+            android:exported="true" />
+        <activity
+            android:name=".CorrectAnswer4"
+            android:exported="true" />
+        <activity
+            android:name=".WrongAnswer4"
+            android:exported="true" />
+        <activity
+            android:name=".CorrectAnswer3"
+            android:exported="true" />
+        <activity
+            android:name=".WrongAnswer3"
+            android:exported="true" />
+        <activity
+            android:name=".CorrectAnswer2"
+            android:exported="true" />
+        <activity
+            android:name=".WrongAnswer2"
+            android:exported="true" />
+        <activity
+            android:name=".CorrectAnswer1"
+            android:exported="true" />
+        <activity
+            android:name=".WrongAnswer1"
+            android:exported="true" />
+        <activity
+            android:name=".TriviaQuestion5"
+            android:exported="true" />
+        <activity
+            android:name=".TriviaQuestion4"
+            android:exported="true" />
+        <activity
+            android:name=".TriviaQuestion3"
+            android:exported="true" />
+        <activity
+            android:name=".TriviaQuestion2"
+            android:exported="true" />
+        <activity
+            android:name=".TriviaQuestion1"
+            android:exported="true" />
+        <activity
             android:name=".personalityresulti"
             android:exported="true" />
         <activity
@@ -28,7 +76,7 @@
             android:name=".PersonalityQuestion2"
             android:exported="true" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".PersonalityQuestion1"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
