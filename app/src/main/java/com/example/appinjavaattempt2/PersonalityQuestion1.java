@@ -10,7 +10,7 @@ public class PersonalityQuestion1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.personality_question1);
         ApplicationContext context = ApplicationContext.getInstance();
         context.setExtrovertCount(0);
         context.setIntrovertCount(0);

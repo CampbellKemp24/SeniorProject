@@ -5,24 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#323232"
-    tools:context=".PersonalityQuestion2">
+    tools:context=".PersonalityQuestion5">
 
     <TextView
-        android:id="@+id/persQuesionTwoText"
+        android:id="@+id/persQuesionFiveText"
         android:layout_width="347dp"
-        android:layout_height="216dp"
+        android:layout_height="wrap_content"
         android:fontFamily="serif"
-        android:text="@string/being_around_a_large_group_of_people_makes_you_feel"
+        android:text="@string/you_have_the_option_to_do_a_group_project_you_decide_to"
         android:textAlignment="center"
         android:textColor="#E4E4E4"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
+        app:layout_constraintVertical_bias="0.136" />
 
     <TableLayout
         android:layout_width="350dp"
@@ -30,21 +30,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/persQuesionTwoText">
+        app:layout_constraintTop_toBottomOf="@+id/persQuesionFiveText">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/persQuestionTwoOverwhelmed"
+                android:id="@+id/persQuestionSixAlone"
                 android:layout_width="128dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
                 android:backgroundTint="#D62323"
                 android:backgroundTintMode="add"
                 android:fontFamily="serif"
-                android:text="@string/overwhelmed"
+                android:text="@string/do_it_alone"
                 android:textColor="#E4E4E4"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -56,14 +56,14 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/persQuestionTwoHappy"
+                android:id="@+id/persQuestionSixGroup"
                 android:layout_width="128dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
                 android:backgroundTint="#8E0000"
                 android:backgroundTintMode="add"
                 android:fontFamily="serif"
-                android:text="@string/happy"
+                android:text="@string/do_it_in_a_group"
                 android:textColor="#E4E4E4"
                 android:textSize="24sp"
                 android:textStyle="bold" />

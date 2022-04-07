@@ -7,7 +7,6 @@
     tools:context=".TriviaQuestion1">
 
     <TextView
-        android:id="@+id/trivQuestionOneText"
         android:layout_width="366dp"
         android:layout_height="160dp"
         android:padding="10dp"
@@ -32,7 +31,6 @@
         android:backgroundTint="#7575db"
         android:backgroundTintMode="add"
         android:fontFamily="casual"
-        android:foregroundTint="@android:color/holo_red_dark"
         android:text="@string/yes"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -61,7 +59,6 @@
         app:layout_constraintVertical_bias="0.804" />
 
     <ImageView
-        android:id="@+id/imageView5"
         android:layout_width="232dp"
         android:layout_height="198dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,6 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.12"
-        app:srcCompat="@mipmap/java" />
+        app:srcCompat="@mipmap/java"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

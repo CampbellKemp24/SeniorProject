@@ -5,13 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#8ad68f"
-    android:backgroundTint="#8ad68f"
-    android:foregroundTint="#8ad68f"
-    android:visibility="visible"
     tools:context=".CorrectAnswer4">
 
     <TextView
-        android:id="@+id/correctAnswer4Text"
         android:layout_width="266dp"
         android:layout_height="99dp"
         android:padding="10dp"
@@ -36,7 +32,6 @@
         android:backgroundTint="#7575db"
         android:backgroundTintMode="add"
         android:fontFamily="casual"
-        android:foregroundTint="@android:color/holo_red_dark"
         android:text="@string/next_question"
         android:textColor="#B9F6CA"
         android:textSize="16sp"
@@ -49,7 +44,6 @@
         app:layout_constraintVertical_bias="0.866" />
 
     <ImageView
-        android:id="@+id/imageView"
         android:layout_width="250dp"
         android:layout_height="201dp"
         android:layout_marginTop="92dp"
@@ -57,5 +51,7 @@
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/thumbs_up" />
+        app:srcCompat="@mipmap/thumbs_up"
+        android:contentDescription="@string/todo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

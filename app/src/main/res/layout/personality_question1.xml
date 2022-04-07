@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#323232"
-    tools:context=".PersonalityQuestion2">
+    tools:context=".PersonalityQuestion1">
 
     <TextView
-        android:id="@+id/persQuesionTwoText"
+        android:id="@+id/persquestiononetext"
         android:layout_width="347dp"
         android:layout_height="216dp"
         android:fontFamily="serif"
-        android:text="@string/being_around_a_large_group_of_people_makes_you_feel"
+        android:text="@string/do_you_feel_recharged_by_being_alone"
         android:textAlignment="center"
         android:textColor="#E4E4E4"
         android:textSize="40sp"
@@ -30,25 +30,24 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/persQuesionTwoText">
+        app:layout_constraintTop_toBottomOf="@+id/persquestiononetext">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/persQuestionTwoOverwhelmed"
+                android:id="@+id/persQuestionOneYes"
                 android:layout_width="128dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
                 android:backgroundTint="#D62323"
                 android:backgroundTintMode="add"
                 android:fontFamily="serif"
-                android:text="@string/overwhelmed"
+                android:text="@string/yes"
                 android:textColor="#E4E4E4"
                 android:textSize="24sp"
                 android:textStyle="bold" />
-
         </TableRow>
 
         <TableRow
@@ -56,18 +55,17 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/persQuestionTwoHappy"
+                android:id="@+id/persQuestionOneNo"
                 android:layout_width="128dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
                 android:backgroundTint="#8E0000"
                 android:backgroundTintMode="add"
                 android:fontFamily="serif"
-                android:text="@string/happy"
+                android:text="@string/no"
                 android:textColor="#E4E4E4"
                 android:textSize="24sp"
                 android:textStyle="bold" />
-
         </TableRow>
 
     </TableLayout>

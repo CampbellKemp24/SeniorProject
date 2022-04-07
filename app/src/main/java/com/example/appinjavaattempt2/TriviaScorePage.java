@@ -14,42 +14,43 @@ public class TriviaScorePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trivia_score_page);
 
-        Button triviaReturn = (Button) findViewById(R.id.triviaReturn);
-        triviaReturn.setOnClickListener(v1 -> openMainActivity());
-
+        Button triviaReturn = findViewById(R.id.triviaReturn);
+        triviaReturn.setOnClickListener(v1 -> triviaOpenMainActivity());
+        Button triviaDisplayScore = findViewById(R.id.triviaDisplayScore);
+        triviaDisplayScore.setOnClickListener(v1 ->changeText());
 
     }
 
     public void changeText() {
-
         if(TriviaApplicationContext.getInstance().getTriviaScore() == 0) {
-            TextView displayTriviaScore = (TextView) findViewById(R.id.displayTriviaScore);
-            displayTriviaScore.setText(getResources().getString(R.string.zero));
+            TextView displayTriviaScore = findViewById(R.id.displayTriviaScore);
+            displayTriviaScore.setText(getString(R.string.zero));
         }
         if(TriviaApplicationContext.getInstance().getTriviaScore() == 1) {
-            TextView displayTriviaScore = (TextView) findViewById(R.id.displayTriviaScore);
+            TextView displayTriviaScore = findViewById(R.id.displayTriviaScore);
             displayTriviaScore.setText(getString(R.string.one));
         }
         if(TriviaApplicationContext.getInstance().getTriviaScore() == 2) {
-            TextView displayTriviaScore = (TextView) findViewById(R.id.displayTriviaScore);
+            TextView displayTriviaScore = findViewById(R.id.displayTriviaScore);
             displayTriviaScore.setText(getString(R.string.two));
         }
         if(TriviaApplicationContext.getInstance().getTriviaScore() == 3) {
-            TextView displayTriviaScore = (TextView) findViewById(R.id.displayTriviaScore);
+            TextView displayTriviaScore = findViewById(R.id.displayTriviaScore);
             displayTriviaScore.setText(getString(R.string.three));
         }
         if(TriviaApplicationContext.getInstance().getTriviaScore() == 4) {
-            TextView displayTriviaScore = (TextView) findViewById(R.id.displayTriviaScore);
+            TextView displayTriviaScore = findViewById(R.id.displayTriviaScore);
             displayTriviaScore.setText(getString(R.string.four));
         }
         if(TriviaApplicationContext.getInstance().getTriviaScore() == 5) {
-            TextView displayTriviaScore = (TextView) findViewById(R.id.displayTriviaScore);
+            TextView displayTriviaScore = findViewById(R.id.displayTriviaScore);
             displayTriviaScore.setText(getString(R.string.five));
         }
     }
-    public void openMainActivity() {
+
+    public void triviaOpenMainActivity() {
         TriviaApplicationContext.getInstance().backToZeroTrivia();
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, HomeScreen.class);
         startActivity(intent);
     }
 }

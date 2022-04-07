@@ -5,13 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#d92121"
-    android:backgroundTint="#d92121"
-    android:foregroundTint="#d92121"
-    android:visibility="visible"
     tools:context=".WrongAnswer4">
 
         <TextView
-            android:id="@+id/wrongAnswer4TextExplanation"
             android:layout_width="354dp"
             android:layout_height="113dp"
             android:text="@string/http_stands_for_hypertext_transfer_protocol"
@@ -28,7 +24,6 @@
             app:layout_constraintVertical_bias="0.699" />
 
         <TextView
-            android:id="@+id/wrongAnswer4Text"
             android:layout_width="330dp"
             android:layout_height="73dp"
             android:text="@string/wrong"
@@ -52,7 +47,6 @@
             android:backgroundTint="#7575db"
             android:backgroundTintMode="add"
             android:fontFamily="casual"
-            android:foregroundTint="@android:color/holo_red_dark"
             android:text="@string/next_question"
             android:textColor="#B9F6CA"
             android:textSize="16sp"
@@ -63,8 +57,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.866" />
+
         <ImageView
-            android:id="@+id/imageView4"
             android:layout_width="217dp"
             android:layout_height="189dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -73,6 +67,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.086"
-            app:srcCompat="@mipmap/thumbs_down" />
+            app:srcCompat="@mipmap/thumbs_down"
+            android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

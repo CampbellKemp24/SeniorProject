@@ -20,14 +20,14 @@ public class PersonalityQuestion4 extends AppCompatActivity {
 
         ApplicationContext.getInstance().incrementExtrovertCount();
 
-        Intent intent = new Intent(this, PersonalityQuestion6.class);
+        Intent intent = new Intent(this, PersonalityQuestion5.class);
         startActivity(intent);
     }
     public void openPersonalityQuestion6i() {
 
         ApplicationContext.getInstance().incrementIntrovertCount();
 
-        Intent intent = new Intent(this, PersonalityQuestion6.class);
+        Intent intent = new Intent(this, PersonalityQuestion5.class);
         startActivity(intent);
     }
 }

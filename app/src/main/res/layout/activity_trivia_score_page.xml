@@ -7,7 +7,6 @@
     tools:context=".TriviaScorePage">
 
     <TextView
-        android:id="@+id/triviaTotalScore"
         android:layout_width="307dp"
         android:layout_height="208dp"
         android:text="@string/your_total_score"
@@ -30,7 +29,6 @@
         android:backgroundTint="#7575db"
         android:backgroundTintMode="add"
         android:fontFamily="casual"
-        android:foregroundTint="@android:color/holo_red_dark"
         android:text="@string/back_to_homescreen"
         android:textColor="#B9F6CA"
         android:textSize="16sp"
@@ -40,17 +38,38 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.866" />
+        app:layout_constraintVertical_bias="0.934" />
+
+    <Button
+        android:id="@+id/triviaDisplayScore"
+        android:layout_width="238dp"
+        android:layout_height="87dp"
+        android:backgroundTint="#7575db"
+        android:backgroundTintMode="add"
+        android:fontFamily="casual"
+        android:text="@string/display_score"
+        android:textColor="#B9F6CA"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
 
     <TextView
         android:id="@+id/displayTriviaScore"
         android:layout_width="131dp"
         android:layout_height="80dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="48sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574" />
-
+        app:layout_constraintVertical_bias="0.499" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

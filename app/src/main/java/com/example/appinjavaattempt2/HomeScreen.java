@@ -4,27 +4,32 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class HomeScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.homescreen);
 
-        Button homeScreenButtonPersonality = (Button) findViewById(R.id.homescreenbuttonpersonality);
-        Button homeScreenButtonTrivia = (Button) findViewById(R.id.homescreenbuttontrivia);
+        Button homeScreenButtonPersonality = findViewById(R.id.homescreenbuttonpersonality);
+        Button homeScreenButtonTrivia = findViewById(R.id.homescreenbuttontrivia);
+        Button homeScreenButtonMath = findViewById(R.id.homescreenbuttonmath);
         homeScreenButtonPersonality.setOnClickListener(v1 -> openPersonalityQuestion1());
         homeScreenButtonTrivia.setOnClickListener(v1 -> openTriviaQuestion1());
+        homeScreenButtonMath.setOnClickListener(v1 -> openMathQuiz());
     }
     public void openPersonalityQuestion1() {
-        Intent intent = new Intent(this, TriviaQuestion1.class);
+        Intent intent = new Intent(this, PersonalityQuestion1.class);
         startActivity(intent);
     }
     public void openTriviaQuestion1() {
         Intent intent = new Intent(this, TriviaQuestion1.class);
+        startActivity(intent);
+    }
+    public void openMathQuiz() {
+        Intent intent = new Intent(this, MathQuiz.class);
         startActivity(intent);
     }
 }

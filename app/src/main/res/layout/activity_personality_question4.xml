@@ -4,67 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_dark"
-    android:backgroundTint="@android:color/holo_red_dark"
-    android:foregroundTint="@android:color/holo_red_dark"
-    android:visibility="visible"
+    android:background="#323232"
     tools:context=".PersonalityQuestion4">
 
     <TextView
         android:id="@+id/persQuesionFourText"
-        android:layout_width="273dp"
-        android:layout_height="199dp"
-        android:fontFamily="casual"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
         android:text="@string/people_describe_you_as_talkative_energetic_and_approachable"
-        android:textColor="@android:color/darker_gray"
-        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="#E4E4E4"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.298" />
+        app:layout_constraintVertical_bias="0.136" />
 
-    <Button
-        android:id="@+id/persQuestionFourTrue"
-        android:layout_width="142dp"
-        android:layout_height="111dp"
-        android:background="@android:color/holo_red_dark"
-        android:backgroundTint="@android:color/holo_red_dark"
-        android:backgroundTintMode="add"
-        android:fontFamily="casual"
-        android:foregroundTint="@android:color/holo_red_dark"
-        android:text="True"
-        android:textColor="#90CAF9"
-        android:textSize="16sp"
-        android:textStyle="bold"
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701" />
+        app:layout_constraintTop_toBottomOf="@+id/persQuesionFourText">
 
-    <Button
-        android:id="@+id/persQuestionFourFalse"
-        android:layout_width="128dp"
-        android:layout_height="113dp"
-        android:background="@android:color/holo_red_dark"
-        android:backgroundTint="@android:color/holo_red_dark"
-        android:backgroundTintMode="add"
-        android:fontFamily="casual"
-        android:foregroundTint="@android:color/holo_red_dark"
-        android:text="False"
-        android:textColor="#90CAF9"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/persQuestionFourTrue"
+                android:layout_width="128dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:backgroundTint="#D62323"
+                android:backgroundTintMode="add"
+                android:fontFamily="serif"
+                android:text="@string/True1"
+                android:textColor="#E4E4E4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/persQuestionFourFalse"
+                android:layout_width="128dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:backgroundTint="#8E0000"
+                android:backgroundTintMode="add"
+                android:fontFamily="serif"
+                android:text="@string/False"
+                android:textColor="#E4E4E4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,7 +17,7 @@ public class personalityresulti extends AppCompatActivity {
     }
     public void introvertReturnButton() {
         ApplicationContext.getInstance().backToZeroPersonality();
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, HomeScreen.class);
         startActivity(intent);
     }
 }

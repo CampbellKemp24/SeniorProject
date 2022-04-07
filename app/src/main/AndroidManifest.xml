@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppInJavaAttempt2">
         <activity
+            android:name=".MathQuiz"
+            android:exported="true" />
+        <activity
             android:name=".TriviaScorePage"
             android:exported="true" />
         <activity
@@ -64,7 +67,7 @@
             android:name=".personalityresulte"
             android:exported="true" />
         <activity
-            android:name=".PersonalityQuestion6"
+            android:name=".PersonalityQuestion5"
             android:exported="true" />
         <activity
             android:name=".PersonalityQuestion4"
@@ -79,7 +82,7 @@
             android:name=".PersonalityQuestion1"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".HomeScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
